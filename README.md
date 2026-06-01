@@ -227,7 +227,7 @@ java -jar target/rv32i-emulator-1.0.0-jar-with-dependencies.jar --demo factorial
 - [ ] RV32M extension (MUL, DIV, REM) — needed for most real C programs
 - [ ] UART RX — keyboard input support
 - [ ] Interactive debugger (step, breakpoints, register watch)
-- [ ] Simple framebuffer peripheral for graphics output
+- [ ] Simple framebuffer peripheral for graphics output (currently working on this)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,7 +245,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Robel Kumsa — [LinkedIn][https://www.linkedin.com/in/robelkumsa/]
+Robel Kumsa — [LinkedIn](https://linkedin.com/in/robelkumsa)
 
 Project Link: [https://github.com/rkumsa/rv32i-emulator](https://github.com/rkumsa/rv32i-emulator)
 
@@ -273,9 +273,9 @@ Resources that helped me while building this:
 
 <!-- MARKDOWN LINKS -->
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-[license-url]: https://github.com/your_username/rv32i-emulator/blob/main/LICENSE
+[license-url]: https://github.com/rkumsa/rv32i-emulator/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/your_linkedin
+[linkedin-url]: https://linkedin.com/in/robelkumsa
 [Java-shield]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 [Java-url]: https://openjdk.org/
 [Maven-shield]: https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white
