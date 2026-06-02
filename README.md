@@ -10,7 +10,7 @@
 <div align="center">
   <h1 align="center">RV32I Emulator</h1>
   <p align="center">
-    A software emulator of the RISC-V RV32I base ISA, written in Java — built to bridge the gap between high-level programming and bare-metal embedded systems.
+    A software emulator of the RISC-V RV32I base ISA, written in Java. Capable of running C programs.
     <br />
     <br />
     <a href="#about-the-project">About</a>
@@ -58,7 +58,7 @@ RISC-V is a free, open-source ISA used in real embedded chips and is increasingl
 - Implements a memory-mapped peripheral bus with UART, GPIO, and a timer — the same pattern used in real microcontrollers like STM32 and SiFive boards
 - Handles machine-mode interrupts and the full M-mode CSR file (mstatus, mtvec, mepc, mcause, mie, mip, mcycle)
 - Includes a built-in two-pass assembler so programs can be written and run without any external toolchain
-- Loads real ELF32 binaries compiled with `riscv32-unknown-elf-gcc` — meaning actual C programs run on it
+- Loads real ELF32 binaries compiled with `riscv32-unknown-elf-gcc` so actual C programs can run on it
 - Ships with five built-in demo programs: Hello World, Fibonacci, Factorial, GPIO blinky, and a timer interrupt demo
 
 Building this taught me more about how CPUs, memory buses, and peripherals actually work than any textbook did so I'd recommend others interested in embedded to try out building the project yourself too.
