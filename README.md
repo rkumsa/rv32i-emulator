@@ -201,8 +201,8 @@ The loader auto-detects ELF32 vs raw `.bin` and handles `.data`, `.bss`, and mul
 | Flag | Effect |
 |---|---|
 | `--stats` | Print cycle count, wall time, and MIPS after execution |
-| `--trace` | Dump the last 1024 instructions executed (great for debugging) |
-| `--max-cycles N` | Hard cycle limit — prevents infinite loops hanging forever |
+| `--trace` | Dump the last 1024 instructions executed (for debugging) |
+| `--max-cycles N` | Hard cycle limit (prevents infinite loops hanging forever) |
 
 ```sh
 # Example: factorial with stats
@@ -223,7 +223,7 @@ java -jar target/rv32i-emulator-1.0.0-jar-with-dependencies.jar --demo factorial
 - [x] ELF32 binary loader
 - [x] Execution tracer and post-mortem debug
 - [x] 17 integration tests
-- [ ] RV32M extension (MUL, DIV, REM) — needed for most real C programs
+- [ ] RV32M extension (MUL, DIV, REM) (needed for more complex C programs)
 - [ ] UART RX — keyboard input support
 - [ ] Interactive debugger (step, breakpoints, register watch)
 - [ ] Simple framebuffer peripheral for graphics output (currently working on this)
